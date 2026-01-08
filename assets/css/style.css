@@ -2285,3 +2285,11 @@ EDUCATION
   background: #9c6c1a;
   color: #ffe6a6;
 }
+.social-link img {
+  filter: brightness(0) invert(1); /* Makes SVG icons pure white */
+  transition: filter 0.3s ease;
+}
+
+.social-link:hover img {
+  filter: brightness(0) invert(0.8); /* Slight gray on hover */
+}
